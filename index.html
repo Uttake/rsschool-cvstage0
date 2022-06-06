@@ -15,7 +15,7 @@
     <div class="left__side">
         <div class="profile__info">
             <div class="left__img">
-                <img src="/img/My photo.jpg" alt="My photo" class="profile__photo">
+                <img src="/img/Myphoto.jpg" alt="My photo" class="profile__photo">
             </div>
             <h2 class="profile__title">Anton Kazimirov</h2>
         </div>
@@ -43,15 +43,15 @@
         <ul class="languages__list">
             <li class="languages__item">
                 <span class="languages__text">Belarusian</span>
-                <span class="procent"><div class="procent__belarusian"></div></span>
+                <div class="procent"><p class="procent__belarusian"></p></div>
             </li>
             <li class="languages__item">
                 <span class="languages__text">Russian</span>
-                <span class="procent"><div class="procent__russian"></div></span>
+                <div class="procent"><p class="procent__russian"></p></div>
             </li>
             <li class="languages__item">
                 <span class="languages__text">English</span>
-                <span class="procent"><div class="procent__english"></div></span>
+                <div class="procent"><p class="procent__english"></p></div>
             </li>
         </ul>
     </div>
@@ -64,11 +64,11 @@
             <h3 class="title__h3">Code example</h3>
         </div>
 
-        <code>
+        <div class="code__wrapper">
             <p class="code__example">
-                let isPalindrom = text => (text == text.split('').reverse().join('')) ? true : false
+                let isPalindrom = text => (text) == text.split('').reverse().join('')
             </p>
-        </code>
+        </div>
 
         <div class="right__block code">
             <h3 class="title__h3">Professional skills</h3>
@@ -76,19 +76,19 @@
         <ul class="professional__list">
             <li class="professional__item">
                 <span class="professional__text">HTML</span>
-                <span class="procent procent__professional"><div class="professional__html"></div></span>
+                <div class="procent procent__professional"><p class="professional__html"></p></div>
             </li>
             <li class="professional__item">
                 <span class="professional__text">CSS</span>
-                <span class="procent procent__professional"><div class="professional__css"></div></span>
+                <div class="procent procent__professional"><p class="professional__css"></p></div>
             </li>
             <li class="professional__item">
                 <span class="professional__text">JS</span>
-                <span class="procent procent__professional"><div class="professional__js"></div></span>
+                <div class="procent procent__professional"><p class="professional__js"></p></div>
             </li>
             <li class="professional__item">
                 <span class="professional__text">GitHub</span>
-                <span class="procent procent__professional"><div class="professional__github"></div></span>
+                <div class="procent procent__professional"><p class="professional__github"></p></div>
             </li>
         </ul>
         <div class="courses right__block">
@@ -100,11 +100,10 @@
             </li>
             <li class="courses__item">
                 <span class="courses__text">RSSchool</span>
-                <span class="courses__procent procent"><div class="courses__rs"></div></span>
+                <div class="courses__procent procent"><p class="courses__rs"></p></div>
             </li>
         </ul>
     </div>
-        
 </div>
 </body>
 </html>
