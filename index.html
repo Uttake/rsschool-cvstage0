@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="header"></header>
+<main class="container">
+    <div class="left__side">
+        <div class="profile__info">
+            <div class="left__img">
+                <img src="./img/Myphoto.jpg" alt="My photo" class="profile__photo">
+            </div>
+            <h1 class="profile__title">Anton Kazimirov</h1>
+        </div>
+        <h2 class="contacts">Contacts</h2>
+        <ul class="contacts__list">
+            <li class="contacts__item">
+                <img src="./img/gmail.png" alt="Gmail" class="contacts__ico">
+                <a href="https://www.google.com/intl/ru/gmail/about/" class="contacts__link">kazimirovanton07@gmail.com</a>
+            </li>
+            <li class="contacts__item">
+                <img src="./img/github.png" alt="github" class="contacts__ico">
+                <a href="https://github.com/Uttake" class="contacts__link">Uttake</a>
+            </li>
+            <li class="contacts__item">
+                <img src="./img/location.svg" alt="location" class="contacts__ico">
+                <a href="https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D0%B3%D0%B8%D0%BB%D1%91%D0%B2" class="contacts__link">Mogilev, Belarus</a>
+            </li>
+        </ul>
+
+        <h2 class="education">Education</h2>
+        <p class="education__time">2016 - 2019</p>
+        <p class="education__place">Mogilev State Medical College</p>
+
+        <h2 class="languages">Languages</h2>
+        <ul class="languages__list">
+            <li class="languages__item">
+                <span class="languages__text">Belarusian</span>
+                <div class="procent"><p class="procent__belarusian"></p></div>
+            </li>
+            <li class="languages__item">
+                <span class="languages__text">Russian</span>
+                <div class="procent"><p class="procent__russian"></p></div>
+            </li>
+            <li class="languages__item">
+                <span class="languages__text">English</span>
+                <div class="procent"><p class="procent__english"></p></div>
+            </li>
+        </ul>
+    </div>
+    <div class="right__side">
+        <div class="about right__block">
+            <h2 class="title__h2">About me</h2>
+        </div>
+        <p class="about__desc">I am a junior Front End developer with little experience. I am constantly expanding my technical horizons. Able to create clean,readable code based on individual client needs.</p>
+        <div class="right__block code">
+            <h2 class="title__h2">Code example</h2>
+        </div>
+
+        <div class="code__wrapper">
+            <p class="code__example">
+                let isPalindrom = text => (text) == text.split('').reverse().join('')
+            </p>
+        </div>
+
+        <div class="right__block code">
+            <h2 class="title__h2">Professional skills</h2>
+        </div>
+        <ul class="professional__list">
+            <li class="professional__item">
+                <span class="professional__text">HTML</span>
+                <div class="procent procent__professional"><p class="professional__html"></p></div>
+            </li>
+            <li class="professional__item">
+                <span class="professional__text">CSS</span>
+                <div class="procent procent__professional"><p class="professional__css"></p></div>
+            </li>
+            <li class="professional__item">
+                <span class="professional__text">JS</span>
+                <div class="procent procent__professional"><p class="professional__js"></p></div>
+            </li>
+            <li class="professional__item">
+                <span class="professional__text">GitHub</span>
+                <div class="procent procent__professional"><p class="professional__github"></p></div>
+            </li>
+        </ul>
+        <div class="courses right__block">
+            <h2 class="title__h2">Сourses</h2>
+        </div>
+        <ul class="course__list">
+            <li class="courses__item">
+                <span class="courses__text">2022 - this day</span>
+            </li>
+            <li class="courses__item">
+                <span class="courses__text">RSSchool</span>
+                <div class="courses__procent procent"><p class="courses__rs"></p></div>
+            </li>
+        </ul>
+    </div>
+</main>
+<footer class="footer">
+<ul class="footer__list">
+    <li class="footer__item">Stage0 2022</li>
+    <li class="footer__item"><a href="https://rs.school/js/" class="footer__link"><img src="./img/rs_school_js.svg" alt="Rsschool" class="footer__ico"></a></li>
+</ul>
+</footer>
+</body>
+</html>
